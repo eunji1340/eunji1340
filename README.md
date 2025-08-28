@@ -32,7 +32,7 @@
 
 ## ⭐ 프로젝트 요약
 
-### 1. [Floei (감정 기반 문장 위로 플랫폼)](https://github.com/daeyeon-lee/floei)
+### 1. [Floei (감정 기반 문장 위로 플랫폼)](https://github.com/junghyun0729/Floei)
 - **소개**: 사용자의 감정을 기반으로 맞춤형 명언과 도서를 추천하고 감정 다이어리를 기록할 수 있는 자기 이해 플랫폼
 - **주요 기능**  
   - 감정 선택 → 명언 추천 및 도서 검색 (알라딘 API 연동)  
@@ -51,7 +51,7 @@
 
 ---
 
-### 2. [Recode (AI 기반 알고리즘 오답노트 SNS)](https://github.com/daeyeon-lee/recode)
+### 2. [Recode (AI 기반 알고리즘 오답노트 SNS)](https://github.com/eunji1340/recode)
 - **소개**: BOJ 제출 기록을 연동해, AI가 실패 코드를 분석하고 자동으로 오답노트를 생성·공유하는 SNS 서비스
 - **주요 기능**  
   - BOJ 계정 연동 및 제출 기록 자동 수집  
@@ -64,6 +64,5 @@
   - React + Zustand 상태 관리 및 API 연동  
   - Spring Boot 백엔드 팀과 협업하여 FE ↔ BE 통신 설계  
 - **성과**  
-  - SSAFY 13기 공통 프로젝트 **최종 발표 진행**  
   - 크롬 익스텐션 도입으로 UX 개선 (자동 로그인·쿠키 추출)  
   - AI 분석 기반 자동화로 기존 수동 회고 대비 학습 효율 극대화
