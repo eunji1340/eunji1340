@@ -31,7 +31,7 @@ Git · GitHub · gitlab · Notion · Figma
 
 ---
 
-# Projects
+# 프로젝트 요약
 
 ## 1. JUST DO EAT — AI 기반 외식 추천 서비스  
 > 온보딩 기반 취향 분석 · 개인/모임 추천 · 약속 생성 · 투표 시스템
@@ -42,7 +42,7 @@ Git · GitHub · gitlab · Notion · Figma
 - Redis 기반 피드 캐싱 및 상태 관리  
 - FastAPI 점수 엔진(FE ↔ BE 통신 구조 포함)
 
-**GitHub**: https://github.com/eunji1340/JDE  
+**GitHub**: https://github.com/eunji1340/Just-do-eat        
 **Stack**: Spring Boot · FastAPI · PostgreSQL · Redis · React
 
 ---
@@ -56,7 +56,7 @@ Git · GitHub · gitlab · Notion · Figma
 - React + Zustand 상태 관리  
 - GPT API 연동 로직 FE·BE 협업
 
-**GitHub**: https://github.com/eunji1340/recode  
+**GitHub**: https://github.com/eunji1340/Recode      
 **Stack**: React · TypeScript · Zustand · Spring Boot · MySQL · Chrome Extension
 
 ---
@@ -69,11 +69,11 @@ Git · GitHub · gitlab · Notion · Figma
 - 인증 구조 설계, DB 모델링  
 - 다크모드 및 TTS 기능 구현(Web Speech API)
 
-**GitHub**: https://github.com/junghyun0729/Floei  
+**GitHub**: https://github.com/junghyun0729/Floei     
 **Stack**: Vue3 · Pinia · Django REST Framework
 
 ---
 
 # Contact  
-**Email**: your.email@example.com  
+**Email**: dmswl278143@gmail.com     
 **GitHub**: https://github.com/eunji1340
