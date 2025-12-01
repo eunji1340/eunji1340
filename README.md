@@ -1,67 +1,79 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=53d0d9&,add8e6&height=200&section=header&text=Welcome%20to%20Eunji's%20GitHub%20&fontSize=40&fontColor=ffffff&fontAlign=40&fontAlignY=40)
+![header](https://capsule-render.vercel.app/api?type=waving&color=53d0d9&height=200&section=header&text=Eunji%20Jang%20Github&fontSize=40&fontColor=ffffff&fontAlign=35&fontAlignY=40)
 
-# 💁🏻 About Me
+# 💁🏻 About Me  
 ## Jang Eun Ji
 ### Fullstack Developer
-### 삼성 청년 SW-AI Academy(SSAFY) 13th - Python
+### 삼성 청년 SW-AI 아카데미(SSAFY) 13기 · Python/Fullstack Track
 
 ---
 
-## 🛠️ 기술 스택
-### ⚙️ 프로그래밍 언어
-- Python, JavaScript, TypeScript  
-[![My Skills](https://skillicons.dev/icons?i=python,js,ts)](https://skillicons.dev)
+# 기술 스택
 
-### 🖥️ 프론트엔드
-- React, Vue3, Tailwind CSS  
-[![My Skills](https://skillicons.dev/icons?i=react,vue,tailwind)](https://skillicons.dev)
+## 프로그래밍 언어
+Python · JavaScript · TypeScript · Java
 
-### 🗄️ 백엔드 & 데이터베이스
-- Django REST Framework, Spring Boot, MySQL, SQLite3, Redis  
-[![My Skills](https://skillicons.dev/icons?i=django,spring,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,js,ts,java)](https://skillicons.dev)
 
-### 🤝 협업 & 버전 관리
-- Git, GitHub  
-[![My Skills](https://skillicons.dev/icons?i=git,github)](https://skillicons.dev)
+## 프론트엔드
+React · Vite · Tailwind CSS · Vue3 
 
-### 🎨 디자인 & 기획
-- Figma, Swagger, Postman, Notion  
-[![My Skills](https://skillicons.dev/icons?i=figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,vite,tailwind,vue)](https://skillicons.dev)
 
----
+## 백엔드 & 데이터베이스
+Django REST Framework · Spring Boot · FastAPI · MySQL · PostgreSQL · Redis  
 
-## ⭐ 프로젝트 요약
+[![My Skills](https://skillicons.dev/icons?i=django,spring,fastapi,mysql,postgres,redis)](https://skillicons.dev)
 
-### 1. [Floei (감정 기반 문장 위로 플랫폼)](https://github.com/junghyun0729/Floei)
-- **소개**: 사용자의 감정을 기반으로 맞춤형 명언과 도서를 추천하고 감정 다이어리를 기록할 수 있는 자기 이해 플랫폼
-- **주요 기능**  
-  - 감정 선택 → 명언 추천 및 도서 검색 (알라딘 API 연동)  
-  - 감정 기반 다이어리 작성  
-  - 명언 TTS 음성 재생 (Web Speech API)  
-  - 게시판, 이벤트, 다크모드 지원  
-- **나의 기여**  
-  - Vue3 + Pinia + Tailwind 기반 프론트엔드 개발  
-  - 감정/명언/다이어리 상태 통합 API 설계 (Django DRF)  
-  - DB 모델링 및 연동, 인증 구조 설계 (소셜 로그인 포함)  
-  - UI 목업 및 와이어프레임 설계
-- **성과**  
-  - Vue + Django 기반 풀스택 서비스 완성
-  - 소셜 로그인/로컬 로그인 지원, 감정/명언/다이어리 통합 기능 구현
+## 협업 & 버전 관리
+Git · GitHub · gitlab · Notion · Figma
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,gitlab,notion,figma)](https://skillicons.dev)
 
 ---
 
-### 2. [Recode (AI 기반 알고리즘 오답노트 SNS)](https://github.com/eunji1340/recode)
-- **소개**: BOJ 제출 기록을 연동해, AI가 실패 코드를 분석하고 자동으로 오답노트를 생성·공유하는 SNS 서비스
-- **주요 기능**  
-  - BOJ 계정 연동 및 제출 기록 자동 수집  
-  - GPT API 기반 실패 코드 자동 분석 → 오답노트 생성  
-  - SNS 피드: 좋아요·댓글·팔로우 기능  
-  - 사용자 취약점 분석 및 연속 작성 시각화 (마이페이지)  
-- **나의 기여**  
-  - 메인/탐색 페이지 개발 (검색, 무한 스크롤, 피드 공통 로직)  
-  - 마이페이지 일부 기능 구현  
-  - React + Zustand 상태 관리 및 API 연동  
-  - Spring Boot 백엔드 팀과 협업하여 FE ↔ BE 통신 설계  
-- **성과**  
-  - 크롬 익스텐션 도입으로 UX 개선 (자동 로그인·쿠키 추출)  
-  - AI 분석 기반 자동화로 기존 수동 회고 대비 학습 효율 극대화
+# Projects
+
+## 1. JUST DO EAT — AI 기반 외식 추천 서비스  
+> 온보딩 기반 취향 분석 · 개인/모임 추천 · 약속 생성 · 투표 시스템
+
+- Spring Boot 기반 API 서버 개발  
+- 개인/그룹 추천 로직 설계  
+- Retrieval → Scoring → Behavior Update 구조 구현  
+- Redis 기반 피드 캐싱 및 상태 관리  
+- FastAPI 점수 엔진(FE ↔ BE 통신 구조 포함)
+
+**GitHub**: https://github.com/eunji1340/JDE  
+**Stack**: Spring Boot · FastAPI · PostgreSQL · Redis · React
+
+---
+
+## 2. Re:Code — AI 기반 알고리즘 오답노트 SNS  
+> BOJ 제출 기록을 연동하여 AI가 실패 코드를 분석하고 오답노트를 자동 생성하는 SNS
+
+- 메인/탐색 페이지 개발  
+- 검색·정렬·무한 스크롤 공통 피드 로직 구현  
+- 마이페이지 Notes/Likes/Comments UI 개발  
+- React + Zustand 상태 관리  
+- GPT API 연동 로직 FE·BE 협업
+
+**GitHub**: https://github.com/eunji1340/recode  
+**Stack**: React · TypeScript · Zustand · Spring Boot · MySQL · Chrome Extension
+
+---
+
+## 3. Floei — 감정 기반 문장 추천 & 다이어리 서비스  
+> 감정 선택 → 명언·도서 추천 → 감정 다이어리 작성
+
+- Vue3 + Tailwind 기반 UI 개발  
+- 감정/명언/다이어리 통합 API 설계(DRF)  
+- 인증 구조 설계, DB 모델링  
+- 다크모드 및 TTS 기능 구현(Web Speech API)
+
+**GitHub**: https://github.com/junghyun0729/Floei  
+**Stack**: Vue3 · Pinia · Django REST Framework
+
+---
+
+# Contact  
+**Email**: your.email@example.com  
+**GitHub**: https://github.com/eunji1340
