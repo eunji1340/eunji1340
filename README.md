@@ -66,7 +66,7 @@ Git · GitHub · gitlab · Notion · Figma
 
 - 감정 선택·추천·다이어리 흐름의 API 및 데이터 모델 설계(Django·DRF)
 - Vue3 + Pinia 기반 감정 선택·추천 UI·다이어리 UI 구현 및 API 연동
-- 감정–명언–도서–다이어리 간 도메인 구조(ERD) 직접 설계
+- 감정–명언–도서–다이어리 간 도메인 구조(ERD) 설계
 
 **GitHub**: https://github.com/junghyun0729/Floei     
 **Stack**: Vue3 · Pinia · Django REST Framework
