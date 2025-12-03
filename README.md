@@ -3,7 +3,7 @@
 # 💁🏻 About Me  
 ## Jang Eun Ji
 ### Fullstack Developer
-### 삼성 청년 SW-AI 아카데미(SSAFY) 13기 · Python/Fullstack Track
+### 삼성 청년 SW-AI 아카데미(SSAFY) 13기 · Python Track
 
 ---
 
@@ -43,11 +43,24 @@ Git · GitHub · gitlab · Notion · Figma
 - FastAPI 점수 엔진(FE ↔ BE 통신 구조 포함)
 
 **GitHub**: https://github.com/eunji1340/Just-do-eat        
-**Stack**: Spring Boot · FastAPI · PostgreSQL · Redis · React
+**Stack**: React 18 · TypeScript · Zustand · React Query · Spring Boot · JPA · Spring Security · JWT · PostgreSQL · Redis · FastAPI · LightGBM · AWS EC2/S3 · Docker · Nginx · GitLab/Jenkins
 
 ---
 
-## 2. Re:Code — AI 기반 알고리즘 오답노트 SNS  
+## 2. 쪼개 — 여행 정산 자동화 서비스
+> 영수증 분석(사진/OCR) & 자동 결제 분류 · 정산 생성 · 정산방 운영 기능
+
+- 주요 화면(UI/UX) 개발: 랜딩·홈·정산방·기록·분석·사용자 설정 등 전반 UI 구성
+- 정산방 생성/수정/삭제 및 멤버 초대·탈퇴·강퇴 플로우 구현 + API 연동
+- 백엔드에서 전달된 OCR·사진 인식 결과 기반으로 결제 내역·타임라인 UI 구성
+- Room / Payment / Settlement API 연동 로직 구현
+
+**GitHub**: https://github.com/eunji1340/jjogae       
+**Stack**: React 18 · TypeScript · Vite · TailwindCSS · Zustand · Axios · Spring Boot · Spring Security · JWT · JPA · MySQL · Redis · FastAPI · Kafka · AWS EC2/S3 · Nginx · Docker · Jenkins
+
+---
+
+## 3. Re:Code — AI 기반 알고리즘 오답노트 SNS  
 > BOJ 제출 기록을 연동하여 AI가 실패 코드를 분석하고 오답노트를 자동 생성하는 SNS
 
 - 메인/탐색 페이지 개발  
@@ -57,11 +70,11 @@ Git · GitHub · gitlab · Notion · Figma
 - GPT API 연동 로직 FE·BE 협업
 
 **GitHub**: https://github.com/eunji1340/Recode      
-**Stack**: React · TypeScript · Zustand · Spring Boot · MySQL · Chrome Extension
+**Stack**: React 18 · TypeScript · Zustand · Vite · TailwindCSS · Axios · Spring Boot · Spring Security · JWT · JPA · MySQL · GPT API · AWS EC2 · Docker · Chrome Extension
 
 ---
 
-## 3. Floei — 감정 기반 문장 추천 & 다이어리 서비스  
+## 4. Floei — 감정 기반 문장 추천 & 다이어리 서비스  
 > 감정 선택 → 명언·도서 추천 → 감정 다이어리 작성
 
 - 감정 선택·추천·다이어리 흐름의 API 및 데이터 모델 설계(Django·DRF)
@@ -69,7 +82,7 @@ Git · GitHub · gitlab · Notion · Figma
 - 감정–명언–도서–다이어리 간 도메인 구조(ERD) 설계
 
 **GitHub**: https://github.com/junghyun0729/Floei     
-**Stack**: Vue3 · Pinia · Django REST Framework
+**Stack**: Django · Django REST Framework · SQLite · Vue 3 · Pinia · TailwindCSS · Web Speech API · 알라딘 도서 API · GitHub · Figma · Notion
 
 ---
 
