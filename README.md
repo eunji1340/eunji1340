@@ -64,10 +64,9 @@ Git · GitHub · gitlab · Notion · Figma
 ## 3. Floei — 감정 기반 문장 추천 & 다이어리 서비스  
 > 감정 선택 → 명언·도서 추천 → 감정 다이어리 작성
 
-- Django 기반 백엔드 구축
-- Vue3 + Tailwind 기반 UI 개발
-- 사용자 감정 기록 및 다이어리 API 설계
-- 감정-명언-도서 연결 구조에 대한 ERD 설계
+- 감정 선택·추천·다이어리 흐름의 API 및 데이터 모델 설계(Django·DRF)
+- Vue3 + Pinia 기반 감정 선택·추천 UI·다이어리 UI 구현 및 API 연동
+- 감정–명언–도서–다이어리 간 도메인 구조(ERD) 직접 설계
 
 **GitHub**: https://github.com/junghyun0729/Floei     
 **Stack**: Vue3 · Pinia · Django REST Framework
